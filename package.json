@@ -1,0 +1,26 @@
+{
+  "name": "article-scraper",
+  "version": "1.0.0",
+  "description": "I made this because I wanted to download all the articles from some scholarly journals.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/derekshull/article-scraper.git"
+  },
+  "author": "Matt Shull",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/derekshull/article-scraper/issues"
+  },
+  "homepage": "https://github.com/derekshull/article-scraper#readme",
+  "dependencies": {
+    "bluebird": "^3.5.1",
+    "cheerio": "^1.0.0-rc.2",
+    "fs": "0.0.1-security",
+    "mkdirp": "^0.5.1",
+    "request": "^2.85.0"
+  }
+}
